@@ -11,7 +11,7 @@ from .future import _ProcessFutureManager
 
 __all__ = [
     'SubprocessBuilder', 'DispatchableArgumentSet', 'DispatchableJobs',
-    'SubprocessDispatcher', '_ProcessFutureManager'
+    'SubprocessDispatcher'
 ]
 
 class SubprocessBuilder(ABC):
